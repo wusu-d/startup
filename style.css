@@ -1,0 +1,39 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Lato", sans-serif;
+    background: url(photo.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+h1 {
+    color: #e7e9e8;
+    text-transform: uppercase;
+}
+
+
+.btn {
+    font-weight: 700;
+    border-radius: 200px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: lightseagreen;
+    border-color: lightseagreen;
+}
+
+.btn-primary:hover {
+    background-color: #007974;
+    border-width: 3px;
+    border-color: #007974;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+}
+
+.buffer {
+    height: 8rem;
+}
